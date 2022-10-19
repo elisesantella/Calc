@@ -22,4 +22,9 @@ public class Calculator {
         total = one * two;
         return total;
     }
+
+    public int divide(int one, int two){
+        total = one / two;
+        return total;
+    }
 }
