@@ -17,4 +17,9 @@ public class Calculator {
         total = one - two;
         return total;
     }
+
+    public int multiply(int one, int two){
+        total = one * two;
+        return total;
+    }
 }
