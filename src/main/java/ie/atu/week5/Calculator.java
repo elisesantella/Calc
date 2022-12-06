@@ -1,25 +1,25 @@
 package ie.atu.week5;
 
 public class Calculator {
-    private int total;
+    private int t;
 
     public Calculator(){
-        total = 0;
+        t = 0;
     }
 
     public int add(int one, int two){
-        total = one + two;
-        return total;
+        t = one + two;
+        return t;
     }
 
     public int subtract(int one, int two)
     {
-        total = one - two;
-        return total;
+        t = one - two;
+        return t;
     }
 
     public int multiply(int one, int two){
-        total = one * two;
-        return total;
+        t = one * two;
+        return t;
     }
 }
